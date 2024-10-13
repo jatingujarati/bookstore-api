@@ -37,7 +37,7 @@ This is a simplified bookstore API built using Node.js, ExpressJS, Sequelize ORM
 1. **Clone the Repository**
 
    ```bash
-   git clone ...
+   git clone https://github.com/jatingujarati/bookstore-api.git
    cd bookstore-api
    ```
 
@@ -67,17 +67,21 @@ This is a simplified bookstore API built using Node.js, ExpressJS, Sequelize ORM
 
    ```
 
-4. **Run the Database Migrations**
+4. **Create `bookstore` Database in MYSQL**
+
+- create bookstore Database in mysql for this application
+
+5. **Run the Database Migrations**
 
    To run the migrations to your db please update the config/config.json file
 
-Run all Migrations
+   Run all Migrations
 
-```bash
-npx sequelize-cli db:migrate
-```
+   ```bash
+   npx sequelize-cli db:migrate
+   ```
 
-5. **Run the Application**
+6. **Run the Application**
 
    Start the application in development mode:
 
